@@ -376,14 +376,16 @@ button:hover {
 
 .conteudo-2 li {
     display: flex;
-    justify-content: center;
+    justify-content: initial;
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .conteudo-2 li:hover {
-    background-color: #f8f8f8;
+    background-color: #dadada;
 }
 
 .conteudo-2 a {

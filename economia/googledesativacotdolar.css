@@ -322,15 +322,16 @@ header {
 
 .conteudo-2 li {
     display: flex;
-    justify-content: center;
+    justify-content: initial;
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #999999;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .conteudo-2 li:hover {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(218, 218, 218);
 }
 
 .conteudo-2 a {

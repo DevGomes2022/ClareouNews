@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    padding: 5px;
+}
+
+.menu {
+    background-color: black;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0189d9;
+}
+
+@media screen and (max-width: 700px) {
+    .menu a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .menu a {
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu a {
+        padding: 3px 5px;
+    }
+}
+
+/*===========*/
+
+.sobre {
+    width: 100%;
+    padding-top: 100px;
+}
+
+/*===========*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: #d8d8d8;
+}
+
+footer img {
+    width: 150px;
+    padding: 5px;
+}
+
+footer h1 {
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    footer h1 {
+        width: auto;
+        font-size: 14px;
+    }
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 0px 5px;
+}
+
+footer ul a img {
+    width: 28px;
+    background-color: #0189d9;
+}
+
+footer ul a img:hover {
+    background-color: #057bbe;
+}
+
+footer p {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
